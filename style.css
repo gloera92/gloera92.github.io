@@ -57,7 +57,7 @@ ul {
      float:left;
      text-align: center;
      font-family: Georgia, 'Times New Roman', Times, serif;
-   }
+    }
 
    img.myprojects {
     margin-right: auto;
@@ -65,4 +65,67 @@ ul {
     width: 100%;
     }
   
+    h3 {
+      float:none;
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: rgb(182, 182, 182);
+      background-clip: border-box;
+      border: 1px solid rgba(0, 0, 0, 0.987);
+      border-radius: .25rem;
+  }
+
+    .btn-primary {
+      color: rgb(0, 0, 0);
+      background-color: #ffffff;
+      border-color: #000000;
+  }
+
+ 
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+ .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  
+  .row {
+    margin: 0 -5px;
+  }
+  
+  
+  .row:after {
+    content:n"";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
 
