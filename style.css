@@ -1,13 +1,13 @@
 
 
 body{
-    background-color: rgba(17, 17, 17, 0.405);
+    background-color: rgb(182, 182, 182);
 }
  
 img {
-    max-height:inherit;
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
-    height:800px;
 }
 
 ul {
@@ -15,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(182, 182, 182);
   }
 
   li {
@@ -24,12 +24,45 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
     li a:hover {
-    background-color: #111;
+    color: black;
+    background-color: rgb(216, 216, 216);
   }
+
+  IMG.myaboutme {
+   margin-left: 0;
+   margin-right: auto;
+   width: 20%;
+   border-radius: 40%;
+   float: left;
+   color: brown;
+   }
+
+   title {
+     text-decoration-line: underline;
+     display:contents;
+     float:left;
+     text-align: center;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 100%;
+   }
+
+   h2 {
+     float:left;
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   img.myprojects {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    }
+  
+
