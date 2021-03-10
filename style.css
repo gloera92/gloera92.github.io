@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: rgb(182, 182, 182);
+    background-color: rgba(182, 182, 182, 0.796);
 }
  
 img {
@@ -9,6 +9,7 @@ img {
     margin-left: auto;
     width: 100%;
 }
+
 
 ul {
     list-style-type: none;
@@ -31,8 +32,8 @@ ul {
   }
   
     li a:hover {
-    color: black;
-    background-color: rgb(216, 216, 216);
+    color: rgb(199, 199, 199);
+    background-color: rgba(126, 124, 124, 0.796);
   }
 
   IMG.myaboutme {
@@ -41,7 +42,6 @@ ul {
    width: 20%;
    border-radius: 40%;
    float: left;
-   color: brown;
    }
 
    title {
@@ -50,10 +50,15 @@ ul {
      float:left;
      text-align: center;
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     font-size: 100%;
+     font-size: 50px;
    }
 
    h2 {
+     margin-top: 40px;
+     margin-bottom: 40px;
+     margin-left: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
      float:left;
      text-align: center;
      font-family: Georgia, 'Times New Roman', Times, serif;
@@ -66,6 +71,8 @@ ul {
     }
   
     h3 {
+      margin-top: 100px;
+      margin-bottom: 20px;
       float:none;
      text-align: center;
      font-family: Georgia, 'Times New Roman', Times, serif;
@@ -90,42 +97,27 @@ ul {
   }
 
  
-  body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
- .column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-  }
-  
-  
-  .row {
-    margin: 0 -5px;
-  }
-  
-  
-  .row:after {
-    content:n"";
-    display: table;
-    clear: both;
-  }
-  
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-  }
-  
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
+  .grid-container {
+    grid-template-columns: minmax(200px,1fr);
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 40px;
   }
 
+  h5 {
+    margin-top: 100px;
+    float:none;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 25px;
+    margin-bottom: 1rem;
+}
+  
 
